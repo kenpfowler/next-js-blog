@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaSearch } from "react-icons/fa";
+import SearchResults from "./SearchResults";
 
 export default function Search() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -20,9 +21,9 @@ export default function Search() {
   }, [searchTerm]);
 
   return (
-    <div className="relative bg-gray-600 p-4">
+    <div className="relative bg-black p-4">
       <div className="container mx-auto flex items-center justify-center md:justify-end">
-        <div className="relative text-gray-600 w-72">
+        <div className="relative text-black w-72">
           <form>
             <input
               type="search"
@@ -38,6 +39,8 @@ export default function Search() {
           </form>
         </div>
       </div>
+
+      <SearchResults results={searchResults} />
     </div>
   );
 }
