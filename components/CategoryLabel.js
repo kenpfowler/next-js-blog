@@ -7,11 +7,12 @@ export default function CategoryLabel({ children }) {
     Python: "green",
     PHP: "purple",
     Ruby: "red",
+    "Object Oriented Programming": "lime",
   };
 
   return (
     <div
-      className={`px-2 py-1 bg-${colorKey[children]}-600 text-gray-100 font-bold rounded`}
+      className={`px-2 py-1 bg-category-${colorKey[children]} text-gray-100 font-bold rounded`}
     >
       <Link href={`/blog/category/${children.toLowerCase()}`}>{children}</Link>
     </div>

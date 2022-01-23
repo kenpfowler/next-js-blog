@@ -1,11 +1,11 @@
 ---
-title: "Django Crash Course"
-date: "May 5, 2021"
-excerpt: "Django is a very powerful, high level Python framework for building web applications"
-cover_image: "/images/posts/img3.jpg"
-category: "Python"
-author: "Sam Smith"
-author_image: "https://randomuser.me/api/portraits/men/12.jpg"
+title: "SOLID Principals"
+date: "January 20, 2022"
+excerpt: "The SOLID Principles are five principles of Object-Oriented class design. They are a set of rules and best practices to follow while designing a class structure."
+cover_image: "/images/posts/img5.jpg"
+category: "Object Oriented Programming"
+author: "Ken Fowler"
+author_image: "/images/profile-photo.jpg"
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->

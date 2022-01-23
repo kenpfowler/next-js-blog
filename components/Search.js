@@ -11,7 +11,7 @@ export default function Search() {
       if (searchTerm === "") {
         setSearchResults([]);
       } else {
-        const res = await fetch(`/api/search?q=${searchTerm}`);
+        const res = await fetch(`/api/search?q=${searchTerm.toLowerCase()}`);
         const { results } = await res.json();
         setSearchResults(results);
       }

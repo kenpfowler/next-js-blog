@@ -12,7 +12,10 @@ export default function CategoryBlogPage({ posts, categoryName, categories }) {
       <div className="flex justify-between flex-col lg:flex-row">
         <div className="w-full mr-10">
           <h1 className="text-white text-5xl p-5 font-bold capitalize">
-            Posts in {categoryName}
+            Posts in
+            {categoryName === "css" || categoryName === "php"
+              ? categoryName.toUpperCase()
+              : categoryName}
           </h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
