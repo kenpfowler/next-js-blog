@@ -13,6 +13,13 @@ export default function Header() {
           </a>
         </Link>
         <nav className="flex flex-wrap md:w-4/5 items-center justify-end text-base md:ml-auto">
+          <a
+            href="https://www.kennyf.ca/"
+            className="mx-5 cursor-pointer uppercase hover:text-accent-blue"
+          >
+            Home
+          </a>
+
           <Link href="/blog">
             <a className="mx-5 cursor-pointer uppercase hover:text-accent-blue">
               Blog

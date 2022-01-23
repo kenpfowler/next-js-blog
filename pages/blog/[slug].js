@@ -15,7 +15,7 @@ export default function PostPage({
       <Link href="/blog">
         <a className="block text-white text-center">Go Back</a>
       </Link>
-      <div className="w-full md:w-5/6 px-5 md:px-10 py-6 bg-white rounded-lg shadow-md mt-6 mx-auto">
+      <div className="w-full md:w-5/6 px-5 md:px-10 lg:px-20 py-6 bg-white rounded-lg shadow-md mt-6 mx-auto">
         <div className="flex flex-col justify-between mt-4">
           <h1 className="text-5xl mb-5">{title}</h1>
           <CategoryLabel>{category}</CategoryLabel>
@@ -34,7 +34,7 @@ export default function PostPage({
           <div className="mr-4">{date}</div>
         </div>
 
-        <div className="blog-text mt-2 overflow-clip">
+        <div className="blog-text mt-2 ">
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
       </div>
