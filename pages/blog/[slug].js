@@ -15,7 +15,7 @@ export default function PostPage({
       <Link href="/blog">
         <a className="block text-white text-center">Go Back</a>
       </Link>
-      <div className="w-full md:w-5/6 px-5 md:px-10 lg:px-20 py-6 bg-white rounded-lg shadow-md mt-6 mx-auto">
+      <div className="w-full md:w-5/6 px-5 md:px-10 lg:px-40 lg:py-20 py-6 bg-white rounded-lg shadow-md mt-6 mx-auto">
         <div className="flex flex-col justify-between mt-4">
           <h1 className="text-5xl mb-5">{title}</h1>
           <CategoryLabel>{category}</CategoryLabel>
@@ -26,7 +26,7 @@ export default function PostPage({
           <div className="flex items-center">
             <img
               src={author_image}
-              alt=""
+              alt="author picture"
               className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
             />
             <h4>{author}</h4>

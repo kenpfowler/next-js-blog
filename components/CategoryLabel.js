@@ -8,6 +8,7 @@ export default function CategoryLabel({ children }) {
     PHP: "purple",
     Ruby: "red",
     "Object Oriented Programming": "lime",
+    "Design Principles & Patterns": "teal",
   };
 
   return (
